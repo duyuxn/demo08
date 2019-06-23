@@ -1,0 +1,267 @@
+/*
+* @Author: lenovo
+* @Date:   2019-06-14 10:58:55
+* @Last Modified by:   lenovo
+* @Last Modified time: 2019-06-23 16:52:03
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+input{
+	outline: none;
+	border: none;
+}
+.top{
+	background-color: #fff;
+	height: 188px;
+}
+.header{
+	width: 1198px;
+	margin: 0 auto;
+}
+.up{
+	height: 36px;
+}
+.up .up-in{
+	float: right;
+}
+.up-in .hey{
+	font-size: 12.93px;
+	margin-right: 33px;
+	color:  #0d0408;
+}
+.up-in .deng{
+	font-size: 14.78px;
+	margin-right: 29px;
+	color:#0d0408;
+}
+.up-in .zhu{
+	font-size: 14.78px;
+	margin-right: 29px;
+	color:#0d0408;
+}
+.up-in .record {
+	margin-left: 13px;
+	margin-right: 15px;
+}
+.up-in .things {
+	margin-left: 13px;
+	margin-right: 15px;
+}
+.up-in .help {
+	margin-left: 13px;
+	margin-right: 20px;
+}
+.middle{
+	height: 118px;
+	background: url("所需小图/cart.png") no-repeat 1156px 40px ;
+}
+.middle img{
+	float: left;
+	margin-top: 30px;
+	margin-right: 150px;
+}
+.middle .sousuo{
+	display: inline-block;
+	margin-top: 40px;
+	width: 600px;
+	height: 44px;
+	border: 1px solid #393942;
+	float: left;
+}
+.middle .button{
+	height: 44px;
+	width: 59px;
+	float: left;
+	background: url("所需小图/search.png") no-repeat center center;
+}
+.middle .text{
+	float: left;
+	width:541px;
+	height: 44px;
+	text-align: center;
+	font-size: 14.78px;
+	color: #e4e4e4;
+	border-right:2px solid #ccc;
+}
+.middle .cart{
+	margin-top: 40px;
+	float:right;
+}
+.down{
+	height: 38px;
+}
+.down .nav li{
+	display: inline-block;
+	height: 30px;
+	margin-right: 27px;
+	width: 80px;
+	text-align: center;
+	font-size: 14.78px;
+}
+.down .nav li:first-child{
+	width: 128px;
+	margin-right: none;
+}
+.down .nav .dh:hover a{
+	padding-bottom: 14px;
+	display: inline-block;
+	width: 80px;
+	border-bottom:3px solid #3aa747;
+	color: #3aa747;
+}
+.banner{
+	height: 671px;
+	border-top: 4px solid #3aa747;
+    background: url("所需小图/banner.png") no-repeat center center;
+	position: relative;
+}
+.banner ul{
+	right: 0;
+	background-color: #040b08;
+	position: fixed;
+	height: 590px;
+	width:78px ;
+	text-align: center;
+} 
+.banner ul .fixed{
+	line-height: 117px;
+	border-top: 2px solid #4f5453;
+}
+.body{
+	width: 1198px;
+	height: 1016px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+.shouye{
+	height: 58px;
+}
+.shouye .left{
+	margin-top: 18px;
+	display: inline-block;
+}
+.shouye .left b{
+	font-size: 18px;
+}
+.shouye .right{
+	float: right;
+	margin-top: 30px;
+}
+.content{
+	width: 1198px;
+	height: 133px;
+	margin-bottom: 32px;
+}
+.content ul{
+	border: 1px solid #ccc;
+	line-height: 44px;
+}
+.content ul li{
+	display: inline-block;
+	height: 44px;
+	width: 101px;
+	font-size: 16px;
+	text-align: center;
+}
+.content ul li:first-child{
+	background-color: #e5e5e5;
+}
+.content .row-third li:last-child{
+	width: 185px;
+	padding-left: 130px;
+}
+.price{
+	width:1198px;
+	height:617px;
+	margin: 0 auto;
+	margin-bottom: 162px;
+}
+.price ul li{
+	width: 265px;
+	height: 293px;
+	float: left;
+	border: 1px solid #878787;
+	margin-top: 32px;
+	margin-right: 32px;
+	text-align: center;
+	position: relative;
+}
+.price img{
+	margin-top: 35px;
+}
+.price .img1{
+	background-image: url("所需小图/img1.png");
+}
+.price li:hover .box{
+	background-color: #000;
+	opacity: 0.7;
+	text-align: center;
+	color: #fff;
+	height: 175px;
+	padding-top: 120px;
+}
+.price .box:hover p+p{
+	margin-top: 15px;
+}
+.price li div{
+	position: absolute;
+	bottom: 0;
+	background-color: #000;
+	opacity: 0.7;
+	height: 50px;
+	color: #fff;
+	width: 265px;
+	padding-top: 12px;
+}
+.bottom{
+	height: 102px;
+	background-color: #f5f5f5;
+}
+.bottom-up{
+	width:1198px ;
+	height: 100px;
+	margin: 0 auto;
+}
+.bottom-up li{
+	display: inline-block;
+	margin-top: 27px;
+	width: 258px;
+	height: 53px;
+	padding-left: 33px;
+	border-right: 1px solid #e0e0e0 ;
+}
+.bottom-up li:last-child{
+	border-right: none;
+}
+.bottom-up img{
+	float: left;
+	margin-right: 22px;
+}
+.bottom-up .tips{
+	font-size: 19px;
+}
+.bottom-up .detail{
+	font-size: 13px;
+}
+.bottom-down{
+	background:#323232;
+	color: #fff;
+	height: 99px;
+	font-size: 14px;
+	text-align: center;
+}
+.last1{
+	padding-top: 35px;
+}
+.last2{
+	padding-top: 20px;
+}
