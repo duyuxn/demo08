@@ -2,7 +2,7 @@
 * @Author: lenovo
 * @Date:   2019-06-14 10:58:55
 * @Last Modified by:   lenovo
-* @Last Modified time: 2019-06-23 16:52:03
+* @Last Modified time: 2019-06-23 20:53:46
 */
 *{
 	padding: 0;
@@ -91,6 +91,9 @@ input{
 	font-size: 14.78px;
 	color: #e4e4e4;
 	border-right:2px solid #ccc;
+}
+.middle .text:focus{
+	color: #000;
 }
 .middle .cart{
 	margin-top: 40px;
